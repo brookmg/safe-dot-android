@@ -8,11 +8,7 @@ public class Constants {
 
     public static final String LOGS_PREFERENCE_NAME = "APP.USAGE.LOG";
     public static final String LOGS_PREFERENCE_TAG = "LOG.USAGE";
-    public static String DEFAULT_NOTIFICATION_CHANNEL = "PRIVACY_INDICATORS_NOTIFICATION";
+    public static String DEFAULT_NOTIFICATION_CHANNEL = "SAFE_DOT_INDICATORS";
     public static int NOTIFICATION_ID = 256;
-
-
-    public static final String INTERSTITIAL_PLACEMENT_ID = "244358406678589_319269205854175";
-    public static final String NATIVE_BANNER_PLACEMENT_ID = "244358406678589_319269205854175";
 
 }
