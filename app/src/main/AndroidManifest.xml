@@ -10,16 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.LicenceCheckActivity"></activity>
-        <activity android:name=".main.LogsActivity" />
-        <activity
-            android:name=".main.MainActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".main.LicenceCheckActivity" />
+        <activity android:name=".main.LogsActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait">
+
         </activity>
 
         <receiver
@@ -44,9 +47,9 @@
                 android:resource="@xml/dot_service" />
         </service>
     </application>
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
     <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 </manifest>
